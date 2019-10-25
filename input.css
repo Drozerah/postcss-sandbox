@@ -1,0 +1,28 @@
+/*! autoprefixer */
+a { 
+  display: flex;
+}
+/*! discardEmpty */
+/* span{} */
+/*! discardDuplicates */
+.box {
+  border: 1px solid silver;
+}
+.box {
+  border: 1px solid silver;
+}
+/*! cssDeclarationSorter */
+body {
+  animation: none;
+  color: red;
+  border: 0;
+}
+/*! orderedValues */
+div {
+  border: #fff solid 1px;
+}
+/*! preferredQuote */
+.p {
+  quotes: '«' "»";
+  content: 'This is a string';
+}

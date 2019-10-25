@@ -1,0 +1,20 @@
+{
+  "name": "postcss-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postcss:basic": "postcss input.css -o output.css --verbose",
+    "postcss:autoPref": "postcss input.css -u autoprefixer -o output.css --verbose",
+    "postcss:configFile": "postcss --config postcss.config.js input.css -o output.css -w --verbose"
+  },
+  "keywords": [],
+  "author": "Thomas G. aka Drozerah <drozerah@gmail.com> (https://github.com/Drozerah)",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.7.0",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^6.1.3",
+    "postcss-preset-env": "^6.7.0"
+  }
+}
